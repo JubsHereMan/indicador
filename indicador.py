@@ -30,6 +30,38 @@ def matriz_Catalogo(tamanho=3):
 
     return matriz
 
+def obter_filme_valido(matriz):
+    while True:
+        filme01=input('Digite o nome de um filme da lista')
+        filme_encontrado=false 
+        for linha in matriz:
+            if filme01 in linha:
+                filme_encontrado=True
+                break
+        if filme_encontrado:
+            return filme01
+        else:
+            print('Filme não encontrado, digite um filme valido')
+
+
+def coletar_filmes_validos(matriz,num_filmes=3)
+
+
+    filmes_digitados=[]
+
+    for i in range(num_filmes)
+    print(f'filme{i+1}:')
+    filme= obter_filme_valido(matriz)
+    filmes_digitados.append(filme)
+
+    return filmes_digitados
+
+
+filmes_escolhidos = coletar_filmes_validos(matriz_filmes)
+
+print('filmes escolhidos:')
+for filme in filmes_escolhidos:
+    print(filme)
 
 
 print('''Bem vindo ao catalogo de Filmes
@@ -51,19 +83,6 @@ if opcao_escolhida == 1:
 
     for linha in matriz_filmes:
         print(linha)
-
-filme01=input('Filme 1:')
-
-for linha in  matriz_filmes:
-    filmeInline =
-    if filme01 != {matriz_filmes}
-
-filme02=input('filme 2:')
-
-
-filme03=input('filme 3:')
-print(f'Os filmes escolhidos foram:{filme01}, {filme02}, {filme03}')
-
 
 
 
