@@ -61,9 +61,7 @@ planetaDosMacacos = {
     'ano':'10s',
 }
 
-aViagemDeChihiro = {
-    'nome':'A Viagem de Chihiro',
-    'Diretor':'Hayao Miyazaki',
-    'categoria':['Aventura', 'Fantasia', 'Animação'],
-    'ano':'00s',
-}
+
+
+
+filmesAventura=[planetaDosMacacos,oReiLeao,homemAranha,harryPotter,piratasDoCaribe,jurassicPark,indianaJones,starWars,senhorDosAneis]

@@ -1,3 +1,6 @@
+
+
+
 madMaxFuryRoad = {
     'nome':'Mad Max: Estrada da Fúria',
     'Diretor':'George Miller',
@@ -67,3 +70,6 @@ oProtetor = {
     'categoria':['Ação', 'Suspense'],
     'ano':'10s',
 }
+
+
+filmesAcao= [oProtetor, madMaxFuryRoad,missaoImpossivel,velozesEFuriosos,vingadoresUltimato,gladiador,duroDeMatar,johnWick,matrix]

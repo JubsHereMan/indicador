@@ -68,3 +68,4 @@ comerRezarAmar = {
     'ano':'10s',
 }
 
+filmesRomance=[comerRezarAmar,aCulpaEDasEstrelas, amorAMargemDoRio, bonequinhaDeLuxo ,antesDoAmanhecer,casablanca,cartaDeAmor,diarioDeUmaPaixao,orgulhoEPreconceito, titanic]

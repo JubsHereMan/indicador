@@ -67,3 +67,6 @@ hereditario={
     'categoria':['Terror', 'Suspense'],
     'ano':'10s',
 }
+
+
+filmeTerror=[hereditario,invocacaoDoMal,atividadeParanormal,oChamado,aHoraDoPesadelo,panico,oIluminado, halloween,psicose,oExorcista]

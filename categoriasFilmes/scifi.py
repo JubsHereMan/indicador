@@ -67,3 +67,6 @@ gravidade={
     'categoria':['Ficção Científica', 'Drama', 'Suspense'],
     'ano':'10s',
 }
+
+
+filmesScifi=[gravidade,oQuintoElemento,aChegada,madMaxEstradaDaFuria,deVoltaParaOFuturo, oExterminadorDoFuturo,guerraNasEstrelas,interestelar,bladeRunner]

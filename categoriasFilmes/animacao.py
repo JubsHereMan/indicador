@@ -67,3 +67,6 @@ osIncriveis = {
     'categoria':['Animação', 'Ação', 'Aventura'],
     'ano':'00s',
 }
+
+
+filmesAnimacao=[osIncriveis,meuMalvadoFavorito,wallE,frozen,upAltasAventuras,aViagemDeChihiro,shrek,procurandoNemo,oReiLeao,toyStory]

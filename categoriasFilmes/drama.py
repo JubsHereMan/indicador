@@ -67,3 +67,6 @@ parqueDosDinossauros = {
     'categoria':['Drama', 'Aventura'],
     'ano':'90s',
 }
+
+
+filmeDrama=[parqueDosDinossauros,umSonhoDeLiberdade,oRegresso,aListaDeSchindler,meuPai,clubeDaLuta,osInfiltrados,belezaAmericana,oPoderosoChefão,forrestGump]
