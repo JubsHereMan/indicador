@@ -1,4 +1,6 @@
 import random
+import csv
+
 
 from categoriasFilmes.drama import *
 from categoriasFilmes.romance import *

@@ -1,3 +1,5 @@
+
+
 toyStory = {
     'nome':'Toy Story',
     'Diretor':'John Lasseter',
