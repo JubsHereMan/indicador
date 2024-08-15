@@ -1,17 +1,20 @@
-import random
-from collections import Counter
 
 
-from categoriasFilmes.drama import *
-from categoriasFilmes.romance import *
-from categoriasFilmes.acao import *
-from categoriasFilmes.aventura import *
-from categoriasFilmes.animacao import *
-from categoriasFilmes.terror import *
-from categoriasFilmes.scifi import *
+
+import random 
+from collections import Counter 
 
 
-categorias = ['Ficção Científica', 'Aventura', 'Drama', 'Animação', 'Terror', 'Romance', 'Ação', 'Suspense', 'Comédia']
+from categoriasFilmes.drama import * #importando os dados dos filmes
+from categoriasFilmes.romance import * #importando os dados dos filmes
+from categoriasFilmes.acao import * #importando os dados dos filmes
+from categoriasFilmes.aventura import * #importando os dados dos filmes
+from categoriasFilmes.animacao import * #importando os dados dos filmes
+from categoriasFilmes.terror import * #importando os dados dos filmes
+from categoriasFilmes.scifi import * #importando os dados dos filmes
+
+
+
 
 
 listaFilmes = [filmesAcao, filmeTerror, filmesScifi, filmesRomance, filmeDrama, filmesAnimacao, filmesAventura]
@@ -26,7 +29,6 @@ def matriz_Catalogo(tamanho=3):
     for i in range(tamanho):
         linha = [(random.choice(random.choice(listaFilmes))) for _ in range(tamanho)]
         for j, filme in enumerate(linha):
-            nome = filme['nome']
             categoria = filme['categoria']
             linha[j] = {'nome': nome, 'categoria': categoria}
         matriz.append(linha)
