@@ -20,7 +20,6 @@ from categoriasFilmes.scifi import * #importando os dados dos filmes
 listaFilmes = [filmesAcao, filmeTerror, filmesScifi, filmesRomance, filmeDrama, filmesAnimacao, filmesAventura]
 
 
-
 def matriz_Catalogo(tamanho=3):
     if tamanho != 3:
         raise ValueError('Precisa ser uma matriz de 3x3')
@@ -29,11 +28,13 @@ def matriz_Catalogo(tamanho=3):
     for i in range(tamanho):
         linha = [(random.choice(random.choice(listaFilmes))) for _ in range(tamanho)]
         for j, filme in enumerate(linha):
+            nome = filme['nome'] 
             categoria = filme['categoria']
-            linha[j] = {'nome': nome, 'categoria': categoria}
+            linha[j] = {'nome': nome, 'categoria': categoria}  
         matriz.append(linha)
 
     return matriz
+
 
 
 
